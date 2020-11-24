@@ -1,0 +1,32 @@
+{
+  "name": "abtest",
+  "version": "1.0.0",
+  "description": "A proxy that goes 2 ways",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerdinh/split_test.git"
+  },
+  "keywords": [
+    "node",
+    "es6",
+    "problem",
+    "solving"
+  ],
+  "author": "Ha Dinh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/summerdinh/split_test/issues"
+  },
+  "homepage": "https://github.com/summerdinh/split_test#readme",
+  "dependencies": {
+    "express": "*",
+    "express-session": "*",
+    "http-proxy": "*"
+  }
+}
